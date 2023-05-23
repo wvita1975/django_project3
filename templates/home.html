@@ -1,0 +1,9 @@
+
+<h1>Mensaje para base de datos django</h1>
+
+<ul>
+    {% for post in post_list %}
+    <br>
+    <li>{{ post.text }}</li>
+    {% endfor %}
+</ul>
